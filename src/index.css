@@ -1,0 +1,68 @@
+:root {
+  font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: black;
+
+  background-color: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 95vh;
+}
+
+fieldset {
+  border: 2px solid black;
+}
+
+input {
+  height: 2rem;
+  width: 30rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  height: 4rem;
+  width: 10rem;
+
+  margin-top: 10px;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  border: 1px solid transparent;
+
+  font-size: 1.5em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: rgb(85, 155, 253);
+  cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid black;
+}
+
+.form-group {
+  margin: 0 8px;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45vh;
+}
+
+.error {
+  color: red;
+}
